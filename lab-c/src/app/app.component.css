@@ -1,5 +1,5 @@
 header {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   color: var(--accent-color);
   display: flex;
   justify-content: space-between;
@@ -13,12 +13,20 @@ header a {
   text-decoration: none;
 }
 
+header a:hover {
+  text-decoration: underline;
+}
+header a.action {
+  font-size: 24px;
+}
+
 .router-outlet {
   min-height: 70vh;
 }
 
 footer {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: var(--accent-color);
+  font-size: 20px;
   padding: 0.5em 1em;
 }

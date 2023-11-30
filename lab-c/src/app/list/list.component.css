@@ -1,13 +1,31 @@
 button.delete {
   outline: none;
-  border: 1px solid red;
+  border: 2px solid red;
   color: red;
   border-radius: 5px;
+  font-weight: bold;
   padding: 5px;
   background-color: white;
-  min-width: 30px;
+  min-width: 50px;
+  margin-left: 5px;
 }
 
 a {
   text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ul li {
+  margin-top: 10px;
+}
+
