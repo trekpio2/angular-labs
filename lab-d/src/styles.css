@@ -1,18 +1,17 @@
 body {
   background: url("https://placehold.co/100x100/FFFFFF/EFEFEF/png?text=49343");
-}
 
-body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   margin: 0;
   padding: 0;
+  font-size: 18px;
 }
 
 :root {
-  --primary-color: #008148;
-  --secondary-color: #323B86;
-  --accent-color: #e8e7fa;
-  --shadow-color: #E8E8E8;
+  --primary-color: #333C87;
+  --secondary-color: #018249;
+  --accent-color: #e9e8fb;
+  --shadow-color: #E9E9E9;
 }
 
 button.primary {

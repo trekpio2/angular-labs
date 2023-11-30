@@ -35,7 +35,8 @@
 
 .tasks .task {
   background-color: white;
-  border: 1px solid black;
+  border: 2px solid black;
+  border-radius: 5px;
   margin-bottom: 10px;
   padding: 10px;
 
@@ -47,6 +48,7 @@
 
 .tasks .task.completed {
   text-decoration: line-through;
+  background-color: lime;
   opacity: 0.5;
 }
 
@@ -67,7 +69,8 @@
 
 .tasks .task .deadline span {
   padding: 5px;
-  background-color: orange;
+  background-color: indianred;
+  color: white;
   border-radius: 8px;
   font-size: 0.8em;
 }
@@ -75,4 +78,9 @@
 .tasks .task .actions {
   grid-area: actions;
   text-align: right;
+}
+
+button {
+  border-radius: 5px;
+  min-width: 100px;
 }
