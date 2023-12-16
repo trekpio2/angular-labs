@@ -1,0 +1,12 @@
+.router-outlet {
+  min-height: 70vh;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+footer {
+  padding: 0.5em 1em;
+  font-size: 20px;
+}
